@@ -306,7 +306,7 @@ const BookCards = () => {
         </NextButton>
 
         <CardContainer ref={cardContainerRef3}>
-        {bookData.slice(12, 22).map((book, idx) => (
+        {bookData.slice().map((book, idx) => (
             <Card key={book.id}>
               <CardImage src={bookImage[idx+12+1]} alt={book.title} />
               <CardBody>

@@ -1,6 +1,6 @@
 export const fetchData = async () => {
 	try {
-	  const response = await fetch('https://my-json-server.typicode.com/shashanksanket/nabhi/books/');
+	  const response = await fetch('https://my-json-server.typicode.com/NabhiA/devrev/books/');
 	  if (!response.ok) {
 		throw new Error('Network response was not ok');
 	  }

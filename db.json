@@ -191,6 +191,14 @@
     "image": "book24",
     "subject": "Thriller",
     "releasedate": "June 3, 2018"
+  },
+  {
+    "id": 25,
+    "title": "Everyone Here Is Lying",
+    "author": "Dan Jones and Marina Amaral",
+    "image": "book24",
+    "subject": "Thriller",
+    "releasedate": "June 3, 2018"
   }
   ],
   "profile": {
