@@ -89,7 +89,7 @@ const NavbarHead = () => {
             <NavLink href="/viewbooks">View Books</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/borrowbooks">Borrowed Books</NavLink>
+            <NavLink href="/borrowbooks">Cart</NavLink>
           </NavItem>
         </NavLinks>
         <RightContainer>

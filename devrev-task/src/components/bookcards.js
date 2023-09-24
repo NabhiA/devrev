@@ -46,10 +46,13 @@ import book19 from "../images/the-second-ending-book.png";
 import book20 from "../images/the-wishing-game-book.png";
 import book21 from "../images/same-time-next-summer-book.png";
 import book22 from "../images/banyan-moon-book.png";
+import book23 from "../images/banyan-moon-book.png";
+import book24 from "../images/banyan-moon-book.png";
+import book25 from "../images/banyan-moon-book.png";
 import { fetchData } from './api'; 
 
 const BookCards = () => {
-  const bookImage = [book1,book2,book3,book4,book5,book6,book7,book8,book9,book10,book11,book12,book13,book14,book15,book15,book16,book17,book18,book19,book20,book21,book22]
+  const bookImage = [book1,book2,book3,book4,book5,book6,book7,book8,book9,book10,book11,book12,book13,book14,book15,book15,book16,book17,book18,book19,book20,book21,book22,book23,book24,book25]
   const [borrowedBooks, setBorrowedBooks] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [bookData, setBookData] = useState([]);

@@ -9,8 +9,7 @@ const FooterBottom = () => {
       
         <FooterHeadContainer>
             <FooterHeadText>
-                &copy; {new Date().getFullYear()} Copyright:{' '}
-                Library Management System
+                &copy; {new Date().getFullYear()} Copyright{' '}
             </FooterHeadText>
         </FooterHeadContainer>
     );

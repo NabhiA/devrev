@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     width: 100%;
-    background: #DDFFE7;
+    background: #f5f5dc;
     position: relative;
     font-family: roboto, sans-serif;
   }
@@ -57,11 +57,11 @@ export const Loader = styled.div`
 export const Navbar = styled.div`
   width: 100%;
   height: 80px;
-  position: fixed;
+  // position: fixed;
   top: 0;
   left: 0;
   padding: 0 4%;
-  background: #167D7F;
+  background: #221d14;
   z-index: 9;
   display: flex;
   align-items: center;
@@ -81,6 +81,7 @@ export const NavLinks = styled.ul`
 export const NavItem = styled.li`
   & + & {
     margin-left: 20px;
+    text-decoration: none;
   }
 `;
 
@@ -89,6 +90,7 @@ export const NavLink = styled.a`
   color: #fff;
   text-transform: capitalize;
   opacity: 0.9;
+  font-weight:800;
 `;
 
 export const RightContainer = styled.div`
@@ -102,19 +104,19 @@ export const SearchBox = styled.input`
   background: transparent;
   outline: none;
   height: 30px;
-  color: #fff;
+  color: white;
   width: 250px;
   text-transform: capitalize;
   font-size: 16px;
   font-weight: 500;
   transition: 0.2s;
 
-  &::placeholder {
-    color: #98D7C2;
-  }
+  // &::placeholder {
+    
+  // }
 
   &:focus {
-    border-color: #98D7C2;
+    // border-color: ;
     width: 400px;
   }
 `;
@@ -134,8 +136,8 @@ export const FooterHeadContainer = styled.div`
   width: 100%;
   height: 80px;
   padding: 0 4%;
-  background: #167D7F;
-  position: fixed;
+  background: #221d14;
+  // position: fixed;
   bottom: 0;
   left: 0;
   z-index: 3;
@@ -163,10 +165,11 @@ export const ContentContainer = styled.div`
 
 export const HeadTitle = styled.h1`
   padding-left: 50px;
-  color: #167D7F;
+  color: #564a31;
   text-align: center;
   text-transform: capitalize;
   margin-top: 80px;
+  font-family:"Skranji";
 `;
 
 export const HeadDescription = styled.p`
@@ -174,18 +177,20 @@ export const HeadDescription = styled.p`
   line-height: 30px;
   padding-left: 50px;
   margin-top: 30px;
-  color: #29A0B1;
+  color: #564a31;
+  font-family:"Sofia";
   font-size: 16px;
 
 `;
 
 export const Title = styled.h2`
-  color: #167D7F;
+  color: #564a31;
   opacity: 0.9;
   padding-left: 0;
   text-transform: capitalize;
   font-size: 24px;
-  font-weight: 500px;
+  font-weight: bold;
+  font-family: "Sofia", sans-serif; 
 `;
 
 export const BooksList = styled.div`
@@ -243,7 +248,9 @@ margin-bottom: 20px;
 export const BookName = styled.h2`
 font-size: 18px;
 margin-bottom: 5px;
-color: #29A0B1 ;
+color: #564a31 ;
+font-family: "Sofia", sans-serif;
+font-weight: 700;
 `;
 
 export const BooksViewList = styled.div`
@@ -253,6 +260,7 @@ flex-wrap: wrap;
 
 export const BookDescription = styled.p`
   font-size: 14px;
+  font-family: "Mooli";
   margin-bottom: 5px;
   opacity: 0.8;
 `;
@@ -282,7 +290,7 @@ export const CardBody = styled.div`
   top: 0;
   left: 0;
   z-index: 2;
-  background: linear-gradient(to bottom, rgba(4, 8, 15, 0), #98D7C2 90%);
+  background: linear-gradient(to bottom, rgba(4, 8, 15, 0), 	#786745 90%);
   padding: 10px;
   transition: 0.5s;
 
@@ -318,7 +326,8 @@ export const Label = styled.label`
   font-size: 18px;
   margin-bottom: 5px;
   margin-right: 10px;
-  color: #29A0B1;
+  color: #564a31;
+  font-family:"Sofia";
 `;
 
 export const Input = styled.input`
@@ -329,21 +338,22 @@ export const Input = styled.input`
   background: transparent;
   outline: none;
   height: 30px;
-  color: #29A0B1;
+  color: #564a31;
   width: 250px;
   font-weight: 500;
   
   &::placeholder {
-    color: #98D7C2;
+    color: #564A31;
+    font-family:"Mooli";
   }
 `;
 
 export const Button = styled.button`
-  background-color: #167D7F;
+  background-color: #221d14;
   color: #ffffff;
   padding: 10px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 40px;
   font-size: 16px;
   cursor: pointer;
   display: flex;
@@ -351,7 +361,7 @@ export const Button = styled.button`
   align-items: center;
   
   &:hover {
-    background-color: #29A0B1;
+    background-color: #564a31;
   }
 
   &:focus {
@@ -409,7 +419,7 @@ export const PreviousButton = styled.button`
   outline: none;
   cursor: pointer;
   left: 0;
-  background: #98D7C2;
+  background: #221d14;
   opacity:0.5;
 
   img {
@@ -433,7 +443,7 @@ export const NextButton = styled.button`
   outline: none;
   cursor: pointer;
   right: 0;
-  background: #98D7C2;
+  background: #221d14;
   opacity:0.5;
 
   img {
@@ -443,7 +453,7 @@ export const NextButton = styled.button`
   }
 
   &:hover img {
-    opacity: 1;
+    opacity: 10;
   }
 `;
 

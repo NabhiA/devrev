@@ -40,7 +40,7 @@ import book23 from "../images/crook-manifesto-book.png";
 import book24 from "../images/everyone-here-is-lying-book.png";
 import book25 from "../images/gone-tonight-book.png";
 import { fetchData } from './api'
-const bookImage = [book1, book2, book3, book4, book5, book6, book7, book8, book9, book10, book11, book12, book13, book14, book15, book15, book16, book17, book18, book19, book20, book21, book22]
+const bookImage = [book1, book2, book3, book4, book5, book6, book7, book8, book9, book10, book11, book12, book13, book14, book15, book15, book16, book17, book18, book19, book20, book21, book22,book23,book24,book25]
 const booksPerPage = 9;
 
 const Books = () => {
